@@ -8,4 +8,5 @@
                              :end end
                              :sharedp sharedp)
     (when match
-      (elt regs n))))
+      (when (< n (length regs))
+        (elt regs n)))))
