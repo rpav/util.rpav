@@ -15,4 +15,5 @@
 
   :components
   ((:file "package")
-   (:file "ppcre")))
+   (:file "ppcre")
+   (:file "utility")))

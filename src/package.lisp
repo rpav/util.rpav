@@ -7,6 +7,9 @@
 
    ;; ppcre
    #:nth-scan
+
+   ;; utility
+   #:normalize #:do-hash
    ))
 
 (in-package :util.rpav-1)
