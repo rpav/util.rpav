@@ -2,8 +2,7 @@
 
 (defpackage+ :util.rpav-1
   (:use #:cl #:alexandria)
-  (:inherit #:laconic)
-  (:export
+  (:export-only
 
    ;; ppcre
    #:nth-scan
